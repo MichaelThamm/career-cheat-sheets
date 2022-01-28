@@ -16,8 +16,9 @@
 
 ## Create/Import requirements.txt file
 ### Install pipreqs to create the requirements.txt file
+- pip freeze > requirements.txt
 - *pip install pipreqs*
-    #### Set the path of the requirements.txt file
+#### Set the path of the requirements.txt file
     - *pipreqs </path/to/project>* 
 ### Uninstalls all installed packages in the current working directory (if needed)
 - *pip freeze | xargs pip uninstall -y*
