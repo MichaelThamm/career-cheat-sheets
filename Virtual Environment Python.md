@@ -6,11 +6,14 @@
 
 ## Create/Modify Virtual Environment:
 ### Create a new venv
-- *python -m venv <env_name>*
+- There are 2 options here:
+1. You are creating a new venv from a blank project
+    - *python -m venv <env_name>*
+1. You are creating a new venv inside a git clone project
+    - Git runs on bash and if you run the above command in a windows terminal, it will create the venv for bash
+    - To fix this, go to your interpreter and create a new virtual environment located in the root of the git clone directory
 ### To activate a new venv type
 - *<env_name>\Scripts\activate*
-    #### If the venv exists in a dir that has git init on it, use git bash
-    - *source <env_name>/bin/activate*
 ### Remove a venv
 - *deactivate* and delete it manually from the file manager
 ### List all packages in directory
