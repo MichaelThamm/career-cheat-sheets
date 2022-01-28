@@ -1,7 +1,15 @@
+Summary:
+
+This is a sheet made for useful git commands. Make sure git is installed on your computer, otherwise follow this instruction video:
+https://www.youtube.com/watch?v=J_Clau1bYco
+
+
+Using Git:
+
 1) open cmd.exe with administrator priviliges
 2) cd to correct directory where you want to allow version control
 	Note: '<drive letter>:' to change drives
-3) Throw the .gitignore file in the root of the git init folder found at D:\Projects\Github
+3) Throw the .gitignore file in the root of the git init folder found
 	Note: good gitignore repo - https://github.com/github/gitignore
 
 # Useful commands
