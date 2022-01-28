@@ -22,6 +22,7 @@ rm -rf .git					- removes the git init file (undoes git init)
 git status					- commit status
 git status --short				- whats new
 git branch					- lists the branches of the local repo
+git branch -r					- lists the branches of the remote repo
 git branch -m <name>				- rename the branch name
 git branch <name>				- creates a new local branch
 git branch -d <name>				- delete branch locally
