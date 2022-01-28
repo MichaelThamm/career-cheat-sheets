@@ -5,17 +5,21 @@
 ## Pycharm - [Link1](https://aaronlelevier.github.io/virtualenv-cheatsheet/), [Link2](https://docs.python.org/3/library/venv.html)
 
 ## Create/Modify Virtual Environment:
-- To create a new venv type "python -m venv <env_name>"
-- To activate a new venv type "<scriptName>\Scripts\activate" or folder path to venv
-- to remove a venv just deactivate and delete it manually from the file manager
-- If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
+### Create a new venv
+- *python -m venv <env_name>*
+### To activate a new venv type
+- *<scriptName>\Scripts\activate* or folder path to venv
+### Remove a venv
+- *deactivate* and delete it manually from the file manager
+### List all packages in directory
+- *pip list*
 
 ## Create/Import requirements.txt file
-### install pipreqs to create the requirements.txt file
-- pip install pipreqs
-    #### set the path of the requirements.txt file
-    - pipreqs /path/to/project       
-### uninstalls all installed packages in the current working directory (if needed)
-- pip freeze | xargs pip uninstall -y
-### installs all packages defined in the requirements.txt file
-- pip install -r requirements.txt
+### Install pipreqs to create the requirements.txt file
+- *pip install pipreqs*
+    #### Set the path of the requirements.txt file
+    - *pipreqs </path/to/project>* 
+### Uninstalls all installed packages in the current working directory (if needed)
+- *pip freeze | xargs pip uninstall -y*
+### Installs all packages defined in the requirements.txt file
+- *pip install -r requirements.txt*
