@@ -1,19 +1,17 @@
 This is a log of all the useful commands for Venv in Pycharm IDE and Anaconda
 
-Anaconda:
+Anaconda - [Link](https://www.bing.com/images/search?view=detailV2&ccid=eUDyDtYn&id=93F6359BEB10E398132654EE0DFF17874AEEDAA6&thid=OIP.eUDyDtYnQpXq0xRPlxY35wHaLO&mediaurl=https%3a%2f%2fugoproto.github.io%2fugo_py_doc%2fimg%2fscipy_cs%2fconda-cheatsheeta.png&exph=2500&expw=1650&q=conda+cheat+sheet&simid=608053028769104000&ck=2AD0931E51441DAA1065451437314C15&selectedIndex=0&FORM=IRPRST&ajaxhist=0)
 
-[Link](https://www.bing.com/images/search?view=detailV2&ccid=eUDyDtYn&id=93F6359BEB10E398132654EE0DFF17874AEEDAA6&thid=OIP.eUDyDtYnQpXq0xRPlxY35wHaLO&mediaurl=https%3a%2f%2fugoproto.github.io%2fugo_py_doc%2fimg%2fscipy_cs%2fconda-cheatsheeta.png&exph=2500&expw=1650&q=conda+cheat+sheet&simid=608053028769104000&ck=2AD0931E51441DAA1065451437314C15&selectedIndex=0&FORM=IRPRST&ajaxhist=0)
+Pycharm - [Link1](https://aaronlelevier.github.io/virtualenv-cheatsheet/), [Link2](https://docs.python.org/3/library/venv.html)
 
-Pycharm:
-
-[Link1](https://aaronlelevier.github.io/virtualenv-cheatsheet/), [Link2](https://docs.python.org/3/library/venv.html)
-
+Create/Modify Virtual Environment:
 - To create a new venv type "python -m venv <env_name>"
 - To activate a new venv type "<scriptName>\Scripts\activate" or folder path to venv
 - to remove a venv just deactivate and delete it manually from the file manager
 - If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
 
-1. pip freeze | xargs pip uninstall -y
-2. pip install pipreqs
-    1. pipreqs /path/to/project
-3. pip install -r requirements.txt
+Create/Import requirements.txt file
+- pip freeze | xargs pip uninstall -y
+- pip install pipreqs
+    - pipreqs /path/to/project
+- pip install -r requirements.txt
