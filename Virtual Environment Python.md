@@ -11,7 +11,7 @@ Create/Modify Virtual Environment:
 - If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
 
 Create/Import requirements.txt file
-- pip freeze | xargs pip uninstall -y
-- pip install pipreqs
-    - pipreqs /path/to/project
-- pip install -r requirements.txt
+- pip install pipreqs                           # install pipreqs to create the requirements.txt file
+    - pipreqs /path/to/project                  # set the path of the requirements.txt file
+- pip freeze | xargs pip uninstall -y           # uninstalls all installed packages in the current working directory (if needed)
+- pip install -r requirements.txt               # installs all packages defined in the requirements.txt file
