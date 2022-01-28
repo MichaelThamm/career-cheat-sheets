@@ -8,7 +8,9 @@
 ### Create a new venv
 - *python -m venv <env_name>*
 ### To activate a new venv type
-- *<scriptName>\Scripts\activate* or folder path to venv
+- *<env_name>\Scripts\activate*
+#### If the venv exists in a dir that has git init on it, use git bash
+- *source <env_name>/bin/activate*
 ### Remove a venv
 - *deactivate* and delete it manually from the file manager
 ### List all packages in directory
@@ -16,7 +18,7 @@
 
 ## Create/Import requirements.txt file
 ### Install pipreqs to create the requirements.txt file
-- pip freeze > requirements.txt
+- *pip freeze > requirements.txt*
 - *pip install pipreqs*
 #### Set the path of the requirements.txt file
     - *pipreqs </path/to/project>* 
