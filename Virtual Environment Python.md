@@ -14,8 +14,6 @@ Pycharm:
 - If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
 
 1. pip freeze | xargs pip uninstall -y
-  
 2. pip install pipreqs
-2a. pipreqs /path/to/project
-  
+  1. pipreqs /path/to/project
 3. pip install -r requirements.txt
