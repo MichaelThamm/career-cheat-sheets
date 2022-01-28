@@ -13,9 +13,9 @@ Pycharm:
 - to remove a venv just deactivate and delete it manually from the file manager
 - If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
 
-- pip freeze | xargs pip uninstall -y
+1. pip freeze | xargs pip uninstall -y
   
-- pip install pipreqs
--- pipreqs /path/to/project
+2. pip install pipreqs
+2a. pipreqs /path/to/project
   
--pip install -r requirements.txt
+3. pip install -r requirements.txt
