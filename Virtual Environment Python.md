@@ -12,3 +12,10 @@ Pycharm:
 - To activate a new venv type "<scriptName>\Scripts\activate" or folder path to venv
 - to remove a venv just deactivate and delete it manually from the file manager
 - If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
+
+- pip freeze | xargs pip uninstall -y
+  
+- pip install pipreqs
+-- pipreqs /path/to/project
+  
+-pip install -r requirements.txt
