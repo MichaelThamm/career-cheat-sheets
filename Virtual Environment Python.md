@@ -5,6 +5,7 @@ Anaconda:
 
 Pycharm:
 [Link](https://aaronlelevier.github.io/virtualenv-cheatsheet/)
+
 [Link](https://docs.python.org/3/library/venv.html)
 If in (venv) you can run pip list to see what is in the venv. To get out of the (venv, or whatever the name is): Type "deactivate"
 To create a new venv type "python -m venv <env_name>"
