@@ -22,3 +22,5 @@
 ## Custom Powershell Script [- Link](https://www.davor.josipovic.be/blog/2013/06/02/ignoring-device-io-errors-during-copy-with-powershell/)
 - Useful for copying when you know there are bad sectors on a disk
 - Efficient and effective compared to other tools
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
