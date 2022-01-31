@@ -1,6 +1,6 @@
 # File management tools for Windows OS
 
-## mklink [- Link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
+## mklink ![- Link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink) `#f03c15`
 - Creates a directory link/junction
 - Useful for moving to and from network locations rather than mapping a network drive
 
