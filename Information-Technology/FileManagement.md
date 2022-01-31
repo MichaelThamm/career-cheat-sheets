@@ -15,8 +15,6 @@
 - Service and prepare Windows images
 - DISM can be used to mount and service a Windows image from a .wim file, .ffu file, .vhd file, or a .vhdx file and also to update a running operating system
 
----
-
 ## sfc [- Link](https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e)
 - Scan Windows and restore your files
 - sfc /scannow is the most useful/common commandlet to run
