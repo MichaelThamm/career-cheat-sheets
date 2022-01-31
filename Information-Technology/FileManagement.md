@@ -18,3 +18,7 @@
 ## sfc [Link](https://support.microsoft.com/en-us/topic/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system-files-79aa86cb-ca52-166a-92a3-966e85d4094e)
 - Scan Windows and restore your files
 - sfc /scannow is the most useful/common commandlet to run
+
+## Custom Powershell Script [Link](https://www.davor.josipovic.be/blog/2013/06/02/ignoring-device-io-errors-during-copy-with-powershell/)
+- Useful for copying when you know there are bad sectors on a disk
+- Efficient and effective compared to other tools
