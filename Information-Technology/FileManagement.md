@@ -1,4 +1,4 @@
-# This is a file highlighting file management tools for Windows OS
+# File management tools for Windows OS
 
 ## mklink [Link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/mklink)
 - Creates a directory link/junction
