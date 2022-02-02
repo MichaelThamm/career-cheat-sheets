@@ -23,6 +23,14 @@
 - Useful for copying when you know there are bad sectors on a disk
 - Efficient and effective compared to other tools
 
-## Process Explorer [- Link](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
-- Find out which program has a particular file open
-- Just download the .zip, extract, and run the .exe
+## Sysinternals Suite [- Link](https://docs.microsoft.com/en-us/sysinternals/downloads/)
+- This has many useful system tools including:
+  - File and Disk Utilities
+  - Networking Utilities
+  - Process Utilities
+  - Security Utilities
+  - System Information
+  - Misc.
+- ### Process Explorer [- Link](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+  - Find out which program has a particular file open
+  - Just download the .zip, extract, and run the .exe
