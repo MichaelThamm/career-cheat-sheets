@@ -22,3 +22,7 @@
 ## Custom Powershell Script [- Link](https://www.davor.josipovic.be/blog/2013/06/02/ignoring-device-io-errors-during-copy-with-powershell/)
 - Useful for copying when you know there are bad sectors on a disk
 - Efficient and effective compared to other tools
+
+## Process Explorer [- Link](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+- Find out which program has a particular file open
+- Just download the .zip, extract, and run the .exe
