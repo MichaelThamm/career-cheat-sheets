@@ -29,6 +29,7 @@ git branch <name>				- creates a new local branch
 git branch -d <name>				- delete branch locally
 git push origin --delete <name>			- delete branch remotely
 git checkout <branch>				- changes the active branch
+	* If you are trying to pull a remote branch but don't see it with any git branch commands, just git checkout <branch>
 git clone <GitHub repo url>			- clones an entire repo
 git pull					- pulls the remote branch equivalent of the current local branch
 git pull origin <branch name>			- 
