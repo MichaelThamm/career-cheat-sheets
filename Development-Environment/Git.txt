@@ -52,7 +52,7 @@ gitk						- visualizes the branches
 
 
 # Compare local to remote branches
-git fetch
+git fetch					- This will fetch all of the remote branches
 git diff <local> <remote>/<branch>		- git diff main origin/main
 
 
