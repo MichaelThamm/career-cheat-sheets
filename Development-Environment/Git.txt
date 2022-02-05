@@ -15,6 +15,7 @@ Using Git:
 # Useful commands
 ls						- list files in cwd
 git remote add origin <GitHub repo url>		- Create a remote repo
+git remote set-url origin <NEW_URL>		- change the remote destination
 git remote rm <name>				- removes remote repo
 git ls-remote					- list of all remote branches
 git init 					- enable version control at the current working directory (cwd)
