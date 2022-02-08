@@ -5,6 +5,4 @@
 - Image file of the new OS
 
 ## Instructions
-- Download and install Rufus [- Link](https://rufus.ie/en/)
-  - To download the most recent version of Rufus scroll down to the "Last updated" section
-- 
+- [Link](https://www.youtube.com/watch?v=X_fDdUgqIUQ)
