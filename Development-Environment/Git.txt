@@ -31,6 +31,7 @@ git branch -d <name>				- delete branch locally
 git push origin --delete <name>			- delete branch remotely
 git checkout <branch>				- changes the active branch
 	* If you are trying to pull a remote branch but don't see it with any git branch commands, just git checkout <branch>
+git checkout -b myFeature dev			- Creates a branch from a branch 
 git clone <GitHub repo url>			- clones an entire repo
 git pull					- pulls the remote branch equivalent of the current local branch
 git pull origin <branch name>			- 
@@ -52,13 +53,23 @@ git log						- log
 git gui						- opens a GUI!
 gitk						- visualizes the branches
 
+# For help
+git help --all					- all commands
+git <command> -help				- help for specific command
+NOTE: to get out of the help menu enter 'q'
+
+
+___EXAMPLES___
 
 # Compare local to remote branches
 git fetch					- This will fetch all of the remote branches
 git diff <local> <remote>/<branch>		- git diff main origin/main
 
 
-# For help
-git help --all					- all commands
-git <command> -help				- help for specific command
-NOTE: to get out of the help menu enter 'q'
+# Branch from another branch, and commit
+git checkout -b myFeature dev			- Creates MyFeature branch off dev. Do your work and then
+git commit -am "<Your message>"			- Now merge your changes to dev without a fast-forward
+git checkout dev
+git merge --no-ff myFeature			- Now push changes to the server
+git push origin dev
+git push origin myFeature
