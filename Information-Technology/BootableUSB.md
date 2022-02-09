@@ -5,4 +5,5 @@
 - Image file of the new OS
 
 ## Instructions
-- [Link](https://www.youtube.com/watch?v=X_fDdUgqIUQ)
+- This Youtube series covers the install of Ubuntu Server 20.04.3 LTS from beginning to end
+- [Link](https://www.youtube.com/watch?v=9KFlxVTPicc)
