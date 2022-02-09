@@ -1,19 +1,23 @@
 # Disks and Mounting List
-df -h
-fdisk -l
-lsblk -f
+- df -h
+- fdisk -l
+- lsblk -f
 
 # Directory List
-ls
-ls -al
-cd </dir>
-cd ..
-cd ~
-mkdir
+- ls
+- ls -al
+- cd </dir>
+- cd ..
+- cd ~
+- mkdir
 
 # Check Active Sessions
-w
+- w
 
 # Networking
-hostname -I
-hostname -I | awk '{print $1}'
+- hostname
+- hostname -I
+- hostname -I | awk '{print $1}'
+
+# File Manipulation
+- sudo nano </dir>
