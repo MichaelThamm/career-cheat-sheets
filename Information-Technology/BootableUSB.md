@@ -2,8 +2,10 @@
 
 ## Requirements
 - Rufus (Windows application for creating bootable USB)
-- Image file of the new OS
+- .ISO Image file of the new OS
 
 ## Instructions
-- This Youtube series covers the install of Ubuntu Server 20.04.3 LTS from beginning to end
-- [Link](https://www.youtube.com/watch?v=9KFlxVTPicc)
+- Download and install Rufus [- Link](https://rufus.ie/en/)
+  - To download the most recent version of Rufus scroll down to the "Last updated" section
+- Execute Rufus and point it at the .ISO file
+- Once finished, close Rufus and eject the usb key which is now bootable
