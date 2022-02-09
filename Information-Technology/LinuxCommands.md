@@ -15,9 +15,12 @@
 - w
 
 # Networking
+_Note: Ubuntu 18.04 and above use netplan to configure your network_
 - hostname
 - hostname -I
 - hostname -I | awk '{print $1}'
+- ip a
+- ip link
 
 # File Manipulation
 - sudo nano </dir>
