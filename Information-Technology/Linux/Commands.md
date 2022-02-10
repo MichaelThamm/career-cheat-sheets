@@ -2,6 +2,8 @@
 - df -h
 - fdisk -l
 - lsblk -f
+- [Mounting A Disk](https://unix.stackexchange.com/questions/92803/there-are-4-ssds-but-df-only-listed-one-why)
+- [Add To /etc/fstab For Mount On Boot](https://askubuntu.com/questions/303497/adding-an-entry-to-fstab)
 
 # Directory List
 - ls
