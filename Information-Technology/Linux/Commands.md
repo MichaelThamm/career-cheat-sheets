@@ -27,3 +27,6 @@ _Note: Ubuntu 18.04 and above use netplan to configure your network_
 
 # File Manipulation
 - sudo nano </dir>
+
+# Ubuntu Desktop
+- [Install Ubuntu-Desktop](https://www.youtube.com/watch?v=98YuVDj6g8Q)
