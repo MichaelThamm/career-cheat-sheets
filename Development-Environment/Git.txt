@@ -74,6 +74,7 @@ git merge --no-ff myFeature			- Now push changes to the server
 git push origin dev
 git push origin myFeature
 
+
 # Finished with a remote branch
 git push origin --delete <name>			- Delete the remote branch
 git fetch origin -p				- Update your local repository references to "prune" the obsolete remote-tracking branch:
