@@ -36,3 +36,6 @@ _Note: Ubuntu 18.04 and above use netplan to configure your network_
 # User Management
 - [Add/Modify Users](https://www.youtube.com/watch?v=19WOD84JFxA)
 - [Change Dir Ownership](https://linuxize.com/post/linux-chown-command/#:~:text=The%20chown%20command%20allows%20you,the%20group%20members%2C%20and%20others.)
+  
+# Virtual Network Computing (VNC) with Putty
+- [Install & Configure VNC for Ubunutu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04)
