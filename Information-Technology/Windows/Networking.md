@@ -16,5 +16,7 @@
 
 ## Check connectivity
 - ping <dns_name or ip_address>
+### Show client and destination information (note: similar to tracert command)
+- pathping <dns_name or ip_address>
 ### Consistent ping
 - ping -t <dns_name or ip_address>
