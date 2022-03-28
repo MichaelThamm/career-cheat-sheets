@@ -8,8 +8,9 @@
 ### Add client back to DHCP server list
 - ipconfig /renew
 
-## Clear DNS name resolutions on client computer
+## Clear DNS & NetBIOS name resolutions on client computer
 - ipconfig /flushdns
+- nbtstat –R (requires administrator privileges)
 
 ## Trace the route to destination (note: useful when a destination takes multiple server hops to reach)
 - tracert <dns_name or ip_address>
