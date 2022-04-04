@@ -31,7 +31,17 @@ _Note: Ubuntu 18.04 and above use netplan to configure your network_
 - sudo nano </dir>
 - cp <filepath> <destpath>
 - sudo unzip <filepath>
-
+  
+# Piping
+[Reference](https://www.guru99.com/linux-pipe-grep.html)
+- < some command > | sort -n -r -f `Sort numerically, reverse order, and case insensitive`
+- < some command > | grep < options below >
+- `-v	Shows all the lines that do not match the searched string`
+- `-c	Displays only the count of matching lines`
+- `-n	Shows the matching line and its number`
+- `-i	Match both (upper and lower) case`
+- `-l	Shows just the name of the file with the string`
+  
 # Ubuntu Desktop
 - [Install Ubuntu-Desktop](https://www.youtube.com/watch?v=98YuVDj6g8Q)
   
