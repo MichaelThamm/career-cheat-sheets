@@ -1,19 +1,21 @@
 # Disks and Mounting List
-- df -h
-- fdisk -l
-- lsblk -f
+- df -h `Display the filesystem's space utilization - internal accounting done as blocks are allocated and freed`
+- du -h `command adds up the space used by the files that you specified`
+- [lsblk](https://man7.org/linux/man-pages/man8/lsblk.8.html) `lists information about the specified block devices`
 - [Mounting A Disk](https://unix.stackexchange.com/questions/92803/there-are-4-ssds-but-df-only-listed-one-why)
 - [Add To /etc/fstab For Mount On Boot](https://askubuntu.com/questions/303497/adding-an-entry-to-fstab)
-- sudo du -a /home | sort -n -r | head - n 10
-`Get the 10 largest directories in /home`
+- sudo fdisk /dev/sda `modify the partition table for sda (all changes can be undone unless w command is used)`
+- e2fsck -f /dev/sda1 `check the filesystem integrity`
+- resize2fs /dev/sda1 `resize to file system`
 
-# Directory List
+# Directory Actions
 - ls
 - ls -al
-- cd </dir>
+- cd < /dir >
 - cd ..
 - cd ~
 - mkdir
+- sudo du -a /home | sort -n -r | head - n 10 `Get the 10 largest directories in /home`
 
 # Check Active Sessions
 - w
@@ -28,9 +30,10 @@ _Note: Ubuntu 18.04 and above use netplan to configure your network_
 - ip link
 
 # File Manipulation
-- sudo nano </dir>
-- cp <filepath> <destpath>
-- sudo unzip <filepath>
+- nano < /dir > `edit file`
+- cp < filepath > <destpath> `copy file`
+- zip < destpath > <filepath> `zip file`
+- unzip < filepath > `unzip file`
   
 # Piping
 [Reference](https://www.guru99.com/linux-pipe-grep.html)
