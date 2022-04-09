@@ -48,7 +48,9 @@ git rm -r --cached <folder>			- untrack folder
 git push					- pushes local branch to remote
 git push origin HEAD:main -f			- push the local to remote (named main) with -f force flag
 git push --set-upstream origin <branch name>	- Simultaneously sets the upstream branch and pushes the branch contents to the remote repository.
-git merge <branch>				- merges the current branch to the branch in the command
+git merge <branch>				- merges the current branch to the branch in the 
+git mergetool					- parses all merge conflicts and lets the user decide the corrective action
+command
 git log						- log
 git gui						- opens a GUI!
 gitk						- visualizes the branches
