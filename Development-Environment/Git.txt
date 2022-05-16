@@ -11,6 +11,11 @@ Using Git:
 	Note: '<drive letter>:' to change drives
 3) Throw the .gitignore file in the root of the git init folder found
 	Note: good gitignore repo - https://github.com/github/gitignore
+	
+To Git clone with token code:
+git clone https://<username>:<githubtoken>@github.com/<username>/<repositoryname>.git
+Set remote:
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
 
 # Useful commands
 ls						- list files in cwd
