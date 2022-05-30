@@ -23,6 +23,7 @@
 ### Create the requirements.txt file
 - *pip freeze > requirements.txt*
 ### Uninstalls all installed packages in the current working directory (if needed)
-- *pip freeze | xargs pip uninstall -y*
+- *pip freeze > toRemove.txt*
+- *pip uninstall -r toRemove.txt -y*
 ### Installs all packages defined in the requirements.txt file
 - *pip install -r requirements.txt*
