@@ -1,0 +1,2 @@
+docker image prune --filter="dangling=true" -> remove <none> images
+docker build -t <hub-user>/<repo-name>:<tag> <Dockerfile directory>
