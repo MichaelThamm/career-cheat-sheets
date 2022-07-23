@@ -15,7 +15,10 @@ Using Git:
 To Git clone with token code:
 git clone https://<username>:<githubtoken>@github.com/<username>/<repositoryname>.git
 Set remote:
+git remote set-url origin https://MichaelThamm@github.com/MichaelThamm/Flask-Docker.git
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
+Set credentials:
+git config credential.helper store
 
 # Useful commands
 ls						- list files in cwd
