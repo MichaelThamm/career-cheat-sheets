@@ -8,10 +8,12 @@
 ### Create a new venv
 - There are 2 options here:
 1. You are creating a new venv from a blank project
-    - *python -m venv <env_name>*
+    - *pip install virtualenv*
+    - *virtualenv <env_name>*
+
 1. You are creating a new venv inside a git clone project
-    - Git runs on bash and if you run the above command in a windows terminal, it will create the venv for bash
-    - To fix this, go to your interpreter and create a new virtual environment located in the root of the git clone directory
+    - Alternatively create on using PyCharm
+
 ### To activate a new venv type
 - *<env_name>\Scripts\activate*
 ### Remove a venv
