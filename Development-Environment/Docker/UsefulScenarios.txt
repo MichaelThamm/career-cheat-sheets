@@ -1,3 +1,4 @@
 docker image prune
 docker build -t <hub-user>/<repo-name>:<tag> <Dockerfile directory> -> build an image
 docker run <hub-user>/<repo-name>:<tag> -> create a container and run the app
+docker exec -it <container_id_or_name> echo "I'm inside the container!"
