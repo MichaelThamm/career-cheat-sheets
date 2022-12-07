@@ -8,8 +8,9 @@
 ### Create a new venv
 - There are 2 options here:
 1. You are creating a new venv from a blank project
+    - *python -m pip install --upgrade pip*
     - *pip install virtualenv*
-    - *virtualenv <env_name>*
+    - *virtualenv -p <Path\python.exe>*
 
 1. You are creating a new venv inside a git clone project
     - Alternatively create on using PyCharm
