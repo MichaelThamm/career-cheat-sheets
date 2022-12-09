@@ -10,7 +10,7 @@
 1. You are creating a new venv from a blank project
     - *python -m pip install --upgrade pip*
     - *pip install virtualenv*
-    - *virtualenv -p <Path\python.exe>*
+    - *virtualenv venv -p <Path\python.exe>*
 
 1. You are creating a new venv inside a git clone project
     - Alternatively create on using PyCharm
