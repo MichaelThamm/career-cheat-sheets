@@ -88,3 +88,14 @@ git push origin myFeature
 # Finished with a remote branch
 git push origin --delete <name>			- Delete the remote branch
 git fetch origin -p				- Update your local repository references to "prune" the obsolete remote-tracking branch:
+
+# Remove Git history
+If you want to delete all your commit history but keep the code in its current state, it is very safe to do it as in the following:
+PS: this will not keep your old commit history around
+
+- git checkout --orphan latest_branch
+- git add -A
+- git commit -am "commit message"
+- git branch -D main
+- git branch -m main
+- git push -f origin main
