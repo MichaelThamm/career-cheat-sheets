@@ -1,3 +1,9 @@
+# Ubuntu Desktop
+- [Install Ubuntu-Desktop](https://www.youtube.com/watch?v=98YuVDj6g8Q)
+
+# Kali
+- [Install Kali](https://www.kali.org/get-kali/#kali-installer-images)
+
 # Disks and Mounting List
 - df -h `Display the filesystem's space utilization - internal accounting done as blocks are allocated and freed`
 - du -h `command adds up the space used by the files that you specified`
@@ -44,9 +50,6 @@ _Note: Ubuntu 18.04 and above use netplan to configure your network_
 - `-n	Shows the matching line and its number`
 - `-i	Match both (upper and lower) case`
 - `-l	Shows just the name of the file with the string`
-  
-# Ubuntu Desktop
-- [Install Ubuntu-Desktop](https://www.youtube.com/watch?v=98YuVDj6g8Q)
   
 # User Management
 - [Add/Modify Users](https://www.youtube.com/watch?v=19WOD84JFxA)
